@@ -1,24 +1,56 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className = "layout">
+ 
+      <h1>Calculator</h1>
+
+    <div className = "userInterface">
+      <form >
+        <input
+          type = "text"
+          className = "input_space"
+          name = "text"
+          placeholder = "0"
+          autoComplete="on"
+        />
+      </form>
+      <button className = "AllClear">A/C</button>
+      <button className = "arithmetic">+/-</button>
+      <button className = "Modulas">%</button>
+      <button className = "Divide">&#247;</button>
+
+
+
+
+
+
+
+
     </div>
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    
   );
 }
 
